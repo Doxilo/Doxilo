@@ -1,0 +1,45 @@
+{
+  "name": "Doxilo — Conquer Your Self",
+  "short_name": "Doxilo",
+  "description": "Debate, discuss and earn. Live battles, XP, a 15-category XP shop, the Nova Arcade with 17 games, quiz arenas and Diamond Rooms. One file, installs as an app, works offline.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#05080F",
+  "theme_color": "#05080F",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["social", "education", "games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/nova-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Arcade",
+      "short_name": "Arcade",
+      "description": "17 games — arcade, board, puzzle, strategy, racing and lobby play",
+      "url": "./index.html?nova=arcade",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Quiz Arena",
+      "short_name": "Quiz",
+      "description": "Timed quizzes, XP, combos and leaderboards",
+      "url": "./index.html?view=quiz",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Nova Shop",
+      "short_name": "Shop",
+      "description": "Spend XP on banners, rings, walls and profile sizes",
+      "url": "./index.html?nova=shop",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
